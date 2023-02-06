@@ -6,5 +6,5 @@ export default function Greeting(props) {
 
 // you can destructure props right in the export statement
 export default function Greeting({ name, lastName, emoji}) {
-    return <h2> {emoji || "⚪️"} {name || "Jane" } {lastName || "Doe"}!</h2>
+    return <h2> {emoji || "⚪️"} {name || "N/a" } {lastName || "N/a"}!</h2>
 }
